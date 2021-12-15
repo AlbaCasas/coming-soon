@@ -18,10 +18,10 @@ Simple website to practice html+css layouts and rendering of messages using vani
 
 ### Built With
 
-* HTML
-* CSS
-* JavaScript vanilla
-  
-[product-screenshot]: ./images/preview.jpg
+- HTML
+- CSS
+- JavaScript vanilla
+
+[product-screenshot]: ./docs/images/preview.jpg
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alba-casas/
