@@ -1,5 +1,18 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
-  background-color: #fff5f7;
+  background-color: #fffeff;
+}
+
+.nav {
+  padding: 28px;
+}
+
+.image {
+  width: 96px;
+}
+
+.imageDesktop {
+  visibility: hidden;
+  display: none;
 }
