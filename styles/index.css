@@ -16,3 +16,26 @@ body {
   visibility: hidden;
   display: none;
 }
+
+.imageMobile {
+  margin-bottom: 64px;
+}
+
+.section {
+  text-align: center;
+}
+
+.section__title {
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 1.1;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: 10px;
+}
+
+.section__title--black {
+  display: block;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
