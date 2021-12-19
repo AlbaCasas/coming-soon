@@ -1,8 +1,29 @@
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #fffeff;
 }
+
+/** Components **/
+
+.input {
+  border-radius: 50px;
+  border: 0.5px solid hsl(0, 36%, 70%);
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+.button {
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/** Page styles **/
 
 .nav {
   padding: 28px;
@@ -18,7 +39,6 @@ body {
 
 .image--mobile {
   width: 100%;
-  margin-bottom: 64px;
 }
 
 .hero__content {
@@ -26,6 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 64px 32px;
 }
 
 .content__title {
@@ -47,29 +68,12 @@ body {
   color: hsl(0, 36%, 70%);
   margin-top: 24px;
   line-height: 1.5;
-  padding: 0px 24px;
 }
 
 .content__search {
   padding-top: 36px;
   position: relative;
-  width: fit-content;
-}
-
-.input {
-  border-radius: 50px;
-  border: 0.5px solid hsl(0, 36%, 70%);
-  padding: 16px;
-  width: 256px;
-}
-
-.input::placeholder {
-  color: hsl(0, 36%, 70%);
-}
-
-.button {
-  border-radius: 50px;
-  padding: 10px;
+  width: 100%;
 }
 
 .search__button {
