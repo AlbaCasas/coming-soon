@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,24 +17,43 @@
   <body>
     <nav class="nav">
       <logo>
-        <img src="./assets/logo.svg" />
+        <img class="nav__logo" src="./assets/logo.svg" />
       </logo>
     </nav>
-    <main>
-      <aside>
-        <img src="assets/hero-mobile.jpg" alt="base apparel model" />
-        <img src="assets/hero-desktop.jpg" alt="base apparel model" />
+    <main class="hero">
+      <aside class="hero__image">
+        <img
+          class="image--mobile"
+          src="assets/hero-mobile.jpg"
+          alt="base apparel model"
+        />
+        <img
+          class="image--desktop"
+          src="assets/hero-desktop.jpg"
+          alt="base apparel model"
+        />
       </aside>
-      <section>
-        <h1>WE'RE COMING SOON</h1>
-        <p>
+      <section class="hero__content">
+        <h1 class="content__title">
+          WE'RE <span class="content__title--black">COMING SOON</span>
+        </h1>
+        <p class="content__text">
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <div>
-          <input placeholder="Email Adress" />
-          <button></button>
+        <div class="content__search">
+          <input class="input" placeholder="Email Adress" />
+          <button class="search__button button" src="assets/icon-arrow.svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
+              <path
+                fill="none"
+                stroke="#FFF"
+                stroke-width="2"
+                d="M1 1l8.836 8.836L1 18.671"
+              />
+            </svg>
+          </button>
         </div>
       </section>
     </main>
