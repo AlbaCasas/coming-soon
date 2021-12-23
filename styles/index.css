@@ -127,7 +127,7 @@ body {
     align-items: center;
     background-image: url("../assets/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: contain;
   }
   .hero__content {
     display: flex;
