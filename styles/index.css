@@ -139,5 +139,13 @@ body {
   }
   .button {
     padding: 0px 40px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    transform: scale(110%);
+    background: linear-gradient(135deg, hsl(0, 100%, 98%), hsl(0, 80%, 86%));
+    box-shadow: 4px 10px 20px 0px rgba(238, 140, 140, 0.8);
+    transition: all ease-in 200ms;
   }
 }
